@@ -42,5 +42,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tabungan" />
+    <ImageView
+        android:id="@+id/klla"
+        android:layout_width="209dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabungan"
+        app:srcCompat="@drawable/klla" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
