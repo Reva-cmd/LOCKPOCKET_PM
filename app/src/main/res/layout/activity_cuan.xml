@@ -23,6 +23,14 @@
             android:layout_height="48dp"
             android:src="@drawable/ic_lock_blue"
             android:layout_marginTop="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atur Cuanku"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
 
     </LinearLayout>
 </ScrollView>
