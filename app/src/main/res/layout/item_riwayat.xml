@@ -33,6 +33,13 @@
             android:textColor="#4CAF50"
             android:textSize="16sp"
             android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipe: Tambah"
+            android:textSize="12sp"
+            android:textColor="#888888" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
