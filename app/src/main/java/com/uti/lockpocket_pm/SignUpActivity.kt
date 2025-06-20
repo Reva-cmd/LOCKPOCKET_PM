@@ -27,6 +27,7 @@ class SignUpActivity : AppCompatActivity() {
         btnRegister.setOnClickListener {
             val username = edtUsername.text.toString()
             val password = edtPassword.text.toString()
+
             if (username.isNotEmpty() && password.isNotEmpty()) {
                 val sharedPref = getSharedPreferences("loginPrefs", Context.MODE_PRIVATE)
                 val editor = sharedPref.edit()
