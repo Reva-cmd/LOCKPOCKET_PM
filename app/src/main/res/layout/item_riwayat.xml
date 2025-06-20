@@ -25,6 +25,14 @@
             android:layout_height="wrap_content"
             android:text="Keterangan"
             android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvJumlah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 100.000"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
