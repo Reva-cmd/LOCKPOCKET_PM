@@ -33,5 +33,14 @@
         android:textStyle="normal|bold|italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/tabungan"
+        android:layout_width="183dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tabungan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
