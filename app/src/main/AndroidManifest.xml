@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LOCKPOCKET_PM"
         tools:targetApi="31">
         <activity
+            android:name=".InputTargetActivity"
+            android:exported="false" />
+        <activity
             android:name=".Profil"
             android:exported="false" />
         <activity
