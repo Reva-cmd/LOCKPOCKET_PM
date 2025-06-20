@@ -28,7 +28,7 @@
         android:layout_marginTop="16dp"
         android:text="KELOLA UANGMU\nMEMPERMUDAH MASA DEPANMU"
         android:textColor="#FFFFFF"
-        android:textSize="18dp"
+        android:textSize="17dp"
         android:gravity="center"
         android:textStyle="normal|bold|italic"
         app:layout_constraintStart_toStartOf="parent"
