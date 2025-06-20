@@ -45,6 +45,12 @@
             android:scaleType="centerCrop"
             android:src="@drawable/profil"
             app:shapeAppearanceOverlay="@style/CircleImageView" />
+        <Button
+            android:id="@+id/btnGantiFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#034479"
+            android:text="Ganti Foto" />
 
     </LinearLayout>
 </ScrollView>
