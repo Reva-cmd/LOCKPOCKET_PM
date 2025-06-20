@@ -139,10 +139,15 @@
                     android:layout_height="wrap_content"
                     android:text="Total Pengeluaran: Rp 0"
                     android:textColor="#FFFFFF"/>
-
+                <TextView
+                    android:id="@+id/tvSelisih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selisih: Rp 0"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    </LinearLayout>
-
 </ScrollView>
