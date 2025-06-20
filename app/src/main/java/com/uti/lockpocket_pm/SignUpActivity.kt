@@ -27,7 +27,20 @@ class SignUpActivity : AppCompatActivity() {
         btnRegister.setOnClickListener {
             val username = edtUsername.text.toString()
             val password = edtPassword.text.toString()
+            if (username.isNotEmpty() && password.isNotEmpty()) {
+                val sharedPref = getSharedPreferences("loginPrefs", Context.MODE_PRIVATE)
+                val editor = sharedPref.edit()
 
+                editor.putString("savedUsername", username)
+                editor.putString("savedPassword", password)
+                editor.apply()
+
+                Toast.makeText(this, "Akun berhasil dibuat", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, login2Activity::class.java))
+                finish()
+            } else {
+                Toast.makeText(this, "Isi semua data!", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
