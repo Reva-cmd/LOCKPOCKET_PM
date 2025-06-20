@@ -78,13 +78,15 @@
             android:hint="Nomor HP"
             android:inputType="phone"
             android:minHeight="48dp" />
+
         <EditText
             android:id="@+id/etTanggalLahir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Tanggal Lahir"
+            android:layout_marginTop="12dp"
             android:focusable="false"
-            android:layout_marginTop="12dp" />
+            android:hint="Tanggal Lahir"
+            android:minHeight="48dp" />
 
         <RadioGroup
             android:id="@+id/radioGroupGender"
