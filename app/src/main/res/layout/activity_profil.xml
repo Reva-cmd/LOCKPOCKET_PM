@@ -27,7 +27,6 @@
                 android:src="@drawable/ic_back"
                 android:contentDescription="Kembali"
                 android:layout_marginEnd="16dp" />
-
             <TextView
                 android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
@@ -36,8 +35,16 @@
                 android:text="Profil"
                 android:textSize="24sp"
                 android:textStyle="bold" />
-
         </LinearLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profil"
+            app:shapeAppearanceOverlay="@style/CircleImageView" />
 
     </LinearLayout>
 </ScrollView>
