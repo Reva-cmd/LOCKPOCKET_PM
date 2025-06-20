@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LOCKPOCKET_PM"
         tools:targetApi="31">
         <activity
+            android:name=".TambahTabungan"
+            android:exported="false" />
+        <activity
             android:name=".RiwayatAdapter"
             android:exported="false" />
         <activity
