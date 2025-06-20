@@ -109,6 +109,21 @@
                 android:layout_marginStart="24dp" />
         </RadioGroup>
 
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#034479"
+            android:text="Simpan"
+            android:layout_marginTop="24dp" />
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="#B70505"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp" />
 
     </LinearLayout>
 </ScrollView>
