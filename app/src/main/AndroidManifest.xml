@@ -12,48 +12,56 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOCKPOCKET_PM"
         tools:targetApi="31">
-        <activity
-            android:name=".ambil_tabungan"
-            android:exported="false" />
-        <activity
-            android:name=".TambahTabungan"
-            android:exported="false" />
-        <activity
-            android:name=".RiwayatAdapter"
-            android:exported="false" />
-        <activity
-            android:name=".InputTargetActivity"
-            android:exported="false" />
+
         <activity
             android:name=".Profil"
             android:exported="false" />
+
         <activity
-            android:name=".tabunganku"
+            android:name=".TambahTabungan"
             android:exported="false" />
+
         <activity
-            android:name=".kelola"
+            android:name=".ambil_tabungan"
             android:exported="false" />
+
+        <activity
+            android:name=".InputTargetActivity"
+            android:exported="false" />
+
         <activity
             android:name=".cuan"
             android:exported="false" />
+
         <activity
-            android:name=".SignUpActivity"
+            android:name=".kelola"
             android:exported="false" />
+
+        <activity
+            android:name=".tabunganku"
+            android:exported="false" />
+
         <activity
             android:name=".utama"
             android:exported="false" />
+
         <activity
             android:name=".login2Activity"
             android:exported="false" />
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
