@@ -12,13 +12,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="12dp">
-
         <TextView
             android:id="@+id/tvTanggal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="12 Juni 2025"
             android:textStyle="bold"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvKeterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan"
             android:textSize="14sp" />
 
     </LinearLayout>
