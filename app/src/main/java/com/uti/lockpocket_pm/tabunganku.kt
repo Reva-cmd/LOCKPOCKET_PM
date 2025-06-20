@@ -84,6 +84,16 @@ class tabunganku : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>) {}
         }
 
+        btnTambah.setOnClickListener {
+            val intent = Intent(this, TambahTabungan::class.java)
+            startActivity(intent)
+        }
+
+        btnAmbil.setOnClickListener {
+            val intent = Intent(this, ambil_tabungan::class.java)
+            startActivity(intent)
+        }
+
         val bulanSekarang = Calendar.getInstance().get(Calendar.MONTH)
         spinnerBulan.setSelection(bulanSekarang)
     }
