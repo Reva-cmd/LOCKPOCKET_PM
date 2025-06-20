@@ -25,6 +25,64 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:layout_marginBottom="24dp" />
+
+
+    <LinearLayout
+        android:background="@drawable/bg_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Bulan:"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerBulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_target" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvTargetLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Target Bulan Ini"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvTarget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 1.000.000"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
         </LinearLayout>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
 
 </ScrollView>
