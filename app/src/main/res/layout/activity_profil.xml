@@ -51,27 +51,33 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#034479"
             android:text="Ganti Foto" />
+
         <EditText
             android:id="@+id/etNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:hint="Nama"
             android:inputType="textPersonName"
-            android:layout_marginTop="20dp" />
+            android:minHeight="48dp" />
+
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:layout_marginTop="12dp" />
+            android:minHeight="48dp" />
+
         <EditText
             android:id="@+id/etNomor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
             android:hint="Nomor HP"
             android:inputType="phone"
-            android:layout_marginTop="12dp" />
+            android:minHeight="48dp" />
 
 
     </LinearLayout>
