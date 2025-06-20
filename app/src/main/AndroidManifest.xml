@@ -13,6 +13,18 @@
         android:theme="@style/Theme.LOCKPOCKET_PM"
         tools:targetApi="31">
         <activity
+            android:name=".Profil"
+            android:exported="false" />
+        <activity
+            android:name=".tabunganku"
+            android:exported="false" />
+        <activity
+            android:name=".kelola"
+            android:exported="false" />
+        <activity
+            android:name=".cuan"
+            android:exported="false" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
