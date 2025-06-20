@@ -14,7 +14,6 @@
         android:layout_width="224dp"
         android:layout_height="299dp"
         app:srcCompat="@drawable/lg" />
-
     <EditText
         android:id="@+id/edtUsername"
         android:hint="Username"
@@ -31,5 +30,12 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginBottom="24dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#034479"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
