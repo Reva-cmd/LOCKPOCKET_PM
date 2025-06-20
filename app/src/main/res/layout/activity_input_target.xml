@@ -11,7 +11,6 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:layout_marginBottom="16dp">
-
         <ImageView
             android:id="@+id/btnKembali"
             android:layout_width="24dp"
@@ -19,7 +18,6 @@
             android:src="@drawable/ic_back"
             android:contentDescription="Kembali"
             android:layout_marginEnd="16dp" />
-
         <TextView
             android:id="@+id/tvBulan"
             android:layout_height="wrap_content"
@@ -29,4 +27,31 @@
             android:textColor="#FFFFFF" />
     </LinearLayout>
 
+    <EditText
+        android:id="@+id/etTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Masukkan Target Tabungan"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC" />
+    <Button
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Target"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRiwayat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        android:scrollbars="vertical" />
 </LinearLayout>
