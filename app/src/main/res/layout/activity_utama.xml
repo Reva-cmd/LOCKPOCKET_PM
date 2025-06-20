@@ -20,6 +20,18 @@
         app:shapeAppearanceOverlay="@style/CircleImageView"
         app:srcCompat="@drawable/profil"
         tools:ignore="MissingConstraints" />
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="KELOLA UANGMU\nMEMPERMUDAH MASA DEPANMU"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
