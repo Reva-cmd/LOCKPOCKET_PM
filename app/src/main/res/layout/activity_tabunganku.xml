@@ -89,7 +89,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp" />
-
+        <Button
+            android:id="@+id/btnAmbil"
+            android:text="➖ Ambil Tabungan"
+            android:backgroundTint="#BD0704"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
 
     </LinearLayout>
 
