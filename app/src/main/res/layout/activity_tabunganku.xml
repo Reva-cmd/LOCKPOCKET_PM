@@ -81,6 +81,14 @@
         </LinearLayout>
     </LinearLayout>
 
+        <Button
+            android:id="@+id/btnTambah"
+            android:text="➕ Tambah Tabungan"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
 
 
     </LinearLayout>
