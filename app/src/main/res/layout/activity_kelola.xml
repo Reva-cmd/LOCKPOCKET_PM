@@ -41,6 +41,114 @@
             android:textColor="#FFFFFF"
             android:textSize="29sp"
             android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/jan"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Januari"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/feb"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Februari"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/mar"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Maret"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/apr"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="April"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/mei"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Mei"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/juni"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Juni"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/juli"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Juli"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/agus"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Agustus"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/sep"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="September"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/okto"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Oktober"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/nov"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="November"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Desember"
+            android:backgroundTint="#034479"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
 
     </LinearLayout>
 </ScrollView>
